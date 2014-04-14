@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Licensed Materials - Property of IBM
+			 5725-G92 (C) Copyright IBM Corp. 2006, 2012. All Rights Reserved.
+			 US Government Users Restricted Rights - Use, duplication or
+             disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!-- Attribute "id" must be identical to application folder name -->
+<application xmlns="http://www.worklight.com/application-descriptor" id="HelloWorklight" platformVersion="5.0.5">
+    <displayName>HelloWorklight</displayName>
+    <description>HelloWorklight</description>
+    <author>
+        <name>application's author</name>
+        <email>application author's e-mail</email>
+    </author>
+    <height>460</height>
+    <width>320</width>
+    <mainFile>HelloWorklight.html</mainFile>
+    <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+    <worklightServerRootURL>http://${local.IPAddress}:8080</worklightServerRootURL>
+</application>
